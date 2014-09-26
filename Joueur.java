@@ -99,7 +99,7 @@ public class Joueur {
 	 */
 	public boolean gagne()
 	{
-		boolean victoire = true;
+		boolean victoire = false;
 		int diag1 = 0, diag2 = 0, col1 = 0, col2 = 0, col3 = 0,
 		ligne1 = 0, ligne2 = 0, ligne3 = 0;
 		
