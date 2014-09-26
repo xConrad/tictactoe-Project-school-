@@ -96,10 +96,12 @@ public class Jeu {
 			if (X)
 			{
 				continuer = joueurX.jouer(frame, grille);
+				X=false;
 			}
 			else
 			{
 				continuer = joueurO.jouer(frame, grille);
+				X=true;
 			}
 			
 			
