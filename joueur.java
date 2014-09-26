@@ -58,29 +58,7 @@ public class Jeu {
 	 */
 	public Joueur getJoueur2() {
 		return joueurO;
-	}
-	/**
-	 * modifie le joueur O
-	 * @param joueur2
-	 */
-	public void setJoueur2(Joueur joueur2) {
-		this.joueurO = joueur2;
-	}
-	/**
-	 * Permet de jouer une partie 
-	 * 1) demande les noms de chaque joueur
-	 * 2) instancie les deux joueurs X et O
-	 * 3) tant que la grille n'est pas remplie ou que l'un des joueurs n'a pas gagne
-	 * 	a) affiche la grille 
-	 * 	b) le joueur dont c'est le tour fait son choix
-	 * 4) affiche la grille finale
-	 * 5) affiche le gagnant
-	 */
-	public void jouer()
-	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Bienvenu au jeu de tic tac toe");
-		System.out.println("Joueur X, entre ton nom");
+	}rintln("Joueur X, entre ton nom");
 		String nomX = sc.nextLine();
 		System.out.println("Joueur O, entre ton nom");
 		String nomO = sc.nextLine();
